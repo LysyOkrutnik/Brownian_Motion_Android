@@ -18,10 +18,10 @@ class BrownianApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Symulacja Browna',
-      themeMode: ThemeMode.dark, // 👈 Tryb ciemny jako domyślny
+      themeMode: ThemeMode.dark, 
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(), // 👈 animowany splash
+      home: SplashScreen(), 
     );
   }
 }
